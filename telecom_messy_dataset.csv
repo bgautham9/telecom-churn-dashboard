@@ -1,0 +1,601 @@
+Customer_ID,Customer_Name,City,State,Plan_Type,Monthly_Charge,Total_Data_GB,Call_Minutes,Contract_Type,Tenure_Months,Payment_Method,Churn_Status,Signup_Date,Last_Payment_Date
+1000,Customer_0,Kolkata,Maharashtra,basic,499,180.0,235,Prepaid,40,UPI,yes,2023-01-29,2023-07-18
+1001,Customer_1,Kolkata,Karnataka,Basic,499,75.0,755,Prepaid,39,UPI,yes,2023-09-23,2025-06-26
+1002,Customer_2,Bangalore,Tamil Nadu,Premium,499,180.0,104,Postpaid,20,Debit Card,No,2022-03-11,2023-04-07
+1003,Customer_3,Delhi,Telangana,Premium ,799,180.0,324,Prepaid,36,credit card,No,2022-05-22,2023-05-01
+1004,Customer_4,Pune,Maharashtra,basic,599,50.0,461,Postpaid,12,Cash,No,2023-09-08,2024-02-17
+1005,Customer_5,Chennai,Delhi,Basic,799,100.0,634,Prepaid,40,Debit Card,No,2023-05-31,2024-11-19
+1006,Customer_6,Mumbai,Maharashtra,Gold,599,150.0,717,Postpaid,14,Credit Card,No,2022-07-21,2024-05-13
+1007,Customer_7,Kolkata,Tamil Nadu,Premium ,799,120.0,116,Postpaid,16,Credit Card,yes,2022-03-12,2023-12-09
+1008,Customer_8,Ahmedabad,Maharashtra,Premium ,999,120.0,558,Prepaid,29,UPI,Yes,2023-03-23,2024-11-11
+1009,Customer_9,Ahmedabad,Tamil Nadu,Basic,599,50.0,682,Prepaid,37,Credit Card,yes,2024-04-25,2024-12-18
+1010,Customer_10,Mumbai,West Bengal,Gold,499,50.0,855,postpaid,42,UPI,No,2022-06-21,2022-10-06
+1011,Customer_11,Ahmedabad,Karnataka,Premium,399,100.0,668,Prepaid,26,credit card,Yes,2024-02-03,2024-04-06
+1012,Customer_12,Kolkata,West Bengal,Premium,999,150.0,393,postpaid,32,Debit Card,yes,2023-12-17,2024-12-22
+1013,Customer_13,Ahmedabad,Karnataka,basic,399,100.0,544,Postpaid,6,Credit Card,yes,2022-11-09,2024-02-04
+1014,Customer_14,Chennai,Gujarat,basic,999,,346,Prepaid,17,Cash,yes,2022-07-18,2024-08-23
+1015,Customer_15,Chennai,Telangana,Gold,999,40.0,278,postpaid,41,UPI,Yes,2023-06-05,2024-09-20
+1016,Customer_16,Delhi,Tamil Nadu,Gold,499,50.0,536,postpaid,32,Credit Card,yes,2022-12-09,2024-12-18
+1017,Customer_17,Chennai,Karnataka,basic,399,100.0,780,Postpaid,2,Credit Card,Yes,2022-04-06,2022-11-25
+1018,Customer_18,Delhi,Maharashtra,Gold,999,120.0,738,Prepaid,45,Credit Card,Yes,2022-07-24,2023-01-21
+1019,Customer_19,Ahmedabad,Telangana,Premium ,399,50.0,366,Prepaid,11,credit card,yes,2023-02-12,2025-03-07
+1020,Customer_20,Chennai,West Bengal,Premium,599,150.0,363,Prepaid,49,credit card,yes,2022-05-27,2024-03-27
+1021,Customer_21,Chennai,Maharashtra,standard,899,180.0,777,Postpaid,54,UPI,Yes,2024-06-04,2024-10-18
+1022,Customer_22,Ahmedabad,Delhi,Standard,899,40.0,425,Prepaid,51,UPI,No,2023-10-31,2025-10-25
+1023,Customer_23,Chennai,West Bengal,Gold,599,100.0,288,postpaid,52,credit card,No,2022-04-10,2022-06-20
+1024,Customer_24,Mumbai,Maharashtra,Gold,899,75.0,222,postpaid,50,UPI,yes,2023-12-10,2025-07-10
+1025,Customer_25,Mumbai,Karnataka,Gold,799,100.0,630,Postpaid,10,Debit Card,No,2023-01-29,2024-01-27
+1026,Customer_26,Mumbai,Maharashtra,Premium,999,50.0,554,Postpaid,55,Debit Card,Yes,2022-05-21,2023-06-02
+1027,Customer_27,Delhi,Gujarat,Premium ,499,50.0,636,postpaid,45,Debit Card,Yes,2023-04-06,2024-01-04
+1028,Customer_28,Ahmedabad,Tamil Nadu,Premium,499,,537,postpaid,37,Cash,Yes,2022-05-26,2023-10-02
+1029,Customer_29,Ahmedabad,West Bengal,Basic,599,50.0,585,Prepaid,50,credit card,yes,2024-02-18,2024-03-24
+1030,Customer_30,Mumbai,Telangana,Premium,499,,757,Prepaid,46,Debit Card,Yes,2022-06-02,2024-07-26
+1031,Customer_31,Hyderabad,West Bengal,Premium,799,180.0,374,Prepaid,50,Credit Card,No,2023-01-24,2023-10-27
+1032,Customer_32,Kolkata,Maharashtra,basic,999,50.0,602,Prepaid,22,Credit Card,No,2022-04-09,2024-04-02
+1033,Customer_33,Chennai,Maharashtra,Basic,399,50.0,619,Prepaid,36,Debit Card,yes,2022-03-03,2024-06-10
+1034,Customer_34,Pune,Tamil Nadu,Gold,899,150.0,519,Prepaid,20,Debit Card,No,2022-01-11,2023-09-04
+1035,Customer_35,Chennai,West Bengal,Basic,899,120.0,610,postpaid,18,UPI,Yes,2022-09-23,2024-09-16
+1036,Customer_36,Ahmedabad,Tamil Nadu,Premium ,799,,512,Prepaid,2,Credit Card,yes,2023-02-08,2025-06-23
+1037,Customer_37,Bangalore,West Bengal,Premium,599,150.0,724,Prepaid,53,Credit Card,yes,2022-05-20,2023-08-07
+1038,Customer_38,Hyderabad,Delhi,Basic,599,40.0,616,postpaid,38,credit card,Yes,2023-01-07,2023-03-21
+1039,Customer_39,Pune,Gujarat,Basic,499,120.0,383,Prepaid,39,Credit Card,Yes,2022-04-26,2024-09-03
+1040,Customer_40,Ahmedabad,Tamil Nadu,Premium,799,40.0,771,Prepaid,52,credit card,yes,2023-12-27,2026-01-21
+1041,Customer_41,Bangalore,Telangana,basic,399,120.0,157,Postpaid,57,UPI,Yes,2023-01-12,2024-05-30
+1042,Customer_42,Chennai,Maharashtra,Premium ,799,40.0,576,postpaid,57,Debit Card,yes,2022-02-05,2024-01-11
+1043,Customer_43,Bangalore,West Bengal,basic,499,100.0,443,Prepaid,27,credit card,No,2022-05-15,2023-05-14
+1044,Customer_44,Bangalore,Tamil Nadu,Gold,499,,228,Postpaid,18,Cash,yes,2023-09-22,2025-08-01
+1045,Customer_45,Hyderabad,Gujarat,Standard,799,120.0,112,Postpaid,17,Credit Card,yes,2023-01-26,2025-07-07
+1046,Customer_46,Ahmedabad,Maharashtra,Basic,599,40.0,722,Postpaid,45,Debit Card,No,2024-04-25,2026-08-31
+1047,Customer_47,Delhi,Karnataka,Gold,499,100.0,177,Postpaid,13,Cash,yes,2023-01-20,2023-04-15
+1048,Customer_48,Chennai,Maharashtra,Standard,599,150.0,386,Prepaid,42,Cash,No,2022-01-24,2022-10-06
+1049,Customer_49,Delhi,Telangana,Premium,999,,131,postpaid,41,credit card,yes,2023-08-28,2025-06-07
+1050,Customer_50,Bangalore,West Bengal,basic,599,100.0,295,Prepaid,45,UPI,Yes,2022-11-01,2023-10-03
+1051,Customer_51,Hyderabad,Maharashtra,Standard,399,150.0,553,postpaid,35,Debit Card,yes,2022-07-17,2024-08-05
+1052,Customer_52,Pune,Maharashtra,standard,599,,220,postpaid,36,Credit Card,No,2023-07-31,2025-07-20
+1053,Customer_53,Mumbai,West Bengal,Basic,399,120.0,341,Prepaid,41,Debit Card,yes,2023-04-17,2025-08-19
+1054,Customer_54,Ahmedabad,Maharashtra,Standard,799,120.0,214,Postpaid,22,Cash,Yes,2022-03-15,2022-08-05
+1055,Customer_55,Delhi,Maharashtra,standard,999,40.0,240,Prepaid,10,credit card,yes,2022-07-07,2024-04-24
+1056,Customer_56,Bangalore,Telangana,standard,799,,375,Prepaid,60,Credit Card,Yes,2023-04-05,2025-02-09
+1057,Customer_57,Delhi,Telangana,standard,899,,305,postpaid,42,UPI,No,2022-06-30,2022-11-28
+1058,Customer_58,Hyderabad,Tamil Nadu,Basic,999,75.0,594,Prepaid,28,Debit Card,No,2022-06-25,2023-04-12
+1059,Customer_59,Hyderabad,Tamil Nadu,basic,399,100.0,494,Postpaid,2,UPI,No,2024-05-11,2026-03-06
+1060,Customer_60,Hyderabad,Delhi,Premium ,899,150.0,875,Postpaid,12,Cash,No,2022-11-21,2025-04-06
+1061,Customer_61,Mumbai,Karnataka,standard,999,75.0,690,Postpaid,55,credit card,yes,2022-09-28,2024-10-26
+1062,Customer_62,Chennai,West Bengal,Standard,799,100.0,621,Prepaid,29,Credit Card,yes,2022-06-22,2022-09-19
+1063,Customer_63,Mumbai,Maharashtra,Gold,899,40.0,660,postpaid,16,Credit Card,No,2022-07-02,2024-06-06
+1064,Customer_64,Kolkata,West Bengal,basic,399,75.0,548,Postpaid,35,Cash,No,2023-06-08,2025-05-16
+1065,Customer_65,Mumbai,Telangana,Basic,399,75.0,326,postpaid,9,Debit Card,Yes,2022-11-30,2023-03-01
+1066,Customer_66,Chennai,Tamil Nadu,Gold,499,40.0,611,Postpaid,8,Debit Card,yes,2022-01-07,2024-02-22
+1067,Customer_67,Hyderabad,Tamil Nadu,Gold,999,100.0,110,postpaid,19,Credit Card,yes,2022-12-10,2024-10-30
+1068,Customer_68,Hyderabad,Tamil Nadu,Basic,399,,253,postpaid,42,Credit Card,yes,2022-07-26,2024-12-11
+1069,Customer_69,Bangalore,Delhi,Basic,399,50.0,769,Postpaid,24,credit card,Yes,2023-03-03,2025-05-11
+1070,Customer_70,Kolkata,Gujarat,Standard,399,50.0,113,Postpaid,27,Credit Card,Yes,2022-05-05,2024-03-12
+1071,Customer_71,Kolkata,Karnataka,basic,799,150.0,618,Prepaid,11,Cash,Yes,2022-08-03,2023-11-07
+1072,Customer_72,Kolkata,Telangana,standard,799,120.0,126,Postpaid,38,Debit Card,yes,2024-01-03,2024-12-30
+1073,Customer_73,Ahmedabad,West Bengal,Basic,599,100.0,159,Prepaid,21,Debit Card,yes,2023-01-16,2024-03-16
+1074,Customer_74,Kolkata,Maharashtra,Premium ,899,75.0,863,postpaid,47,Credit Card,yes,2022-01-18,2023-08-11
+1075,Customer_75,Delhi,Maharashtra,Premium,499,40.0,611,Postpaid,55,Credit Card,Yes,2022-10-23,2023-12-19
+1076,Customer_76,Pune,Telangana,Basic,999,120.0,275,Prepaid,28,UPI,No,2023-09-18,2025-04-03
+1077,Customer_77,Delhi,Maharashtra,Gold,799,120.0,738,Prepaid,29,Debit Card,No,2024-01-03,2026-06-14
+1078,Customer_78,Chennai,Maharashtra,Standard,399,75.0,465,Prepaid,8,credit card,No,2022-05-06,2023-07-10
+1079,Customer_79,Ahmedabad,Maharashtra,Basic,599,50.0,295,Prepaid,7,Cash,No,2022-04-01,2024-05-22
+1080,Customer_80,Chennai,Karnataka,Premium ,799,120.0,744,Postpaid,3,Credit Card,No,2022-09-03,2024-07-07
+1081,Customer_81,Kolkata,West Bengal,Premium,999,,759,postpaid,4,Debit Card,No,2022-07-06,2023-07-23
+1082,Customer_82,Mumbai,Tamil Nadu,Gold,399,180.0,665,Prepaid,20,Cash,Yes,2023-02-13,2024-02-02
+1083,Customer_83,Bangalore,Delhi,Standard,499,75.0,434,Prepaid,56,Cash,No,2023-09-16,2025-12-08
+1084,Customer_84,Ahmedabad,Gujarat,standard,599,50.0,622,Prepaid,41,Cash,Yes,2023-07-14,2025-05-09
+1085,Customer_85,Hyderabad,Gujarat,standard,399,,628,Postpaid,11,Debit Card,yes,2022-12-27,2023-07-21
+1086,Customer_86,Ahmedabad,Tamil Nadu,Premium ,399,40.0,648,Postpaid,46,Debit Card,No,2023-10-10,2023-12-09
+1087,Customer_87,Delhi,Tamil Nadu,Basic,499,120.0,190,postpaid,11,UPI,Yes,2023-05-29,2024-05-21
+1088,Customer_88,Kolkata,West Bengal,basic,399,180.0,492,postpaid,52,Credit Card,Yes,2023-06-12,2023-08-06
+1089,Customer_89,Mumbai,Maharashtra,basic,899,75.0,728,postpaid,21,Credit Card,Yes,2023-12-26,2024-11-06
+1090,Customer_90,Hyderabad,Delhi,standard,599,150.0,723,Prepaid,49,UPI,Yes,2023-03-03,2023-07-09
+1091,Customer_91,Hyderabad,Karnataka,Premium,399,50.0,207,Postpaid,13,Debit Card,yes,2022-09-29,2024-12-05
+1092,Customer_92,Delhi,Maharashtra,basic,799,40.0,727,postpaid,47,Cash,Yes,2022-09-28,2023-06-03
+1093,Customer_93,Pune,Tamil Nadu,basic,899,150.0,434,Prepaid,17,Cash,No,2023-02-16,2025-06-27
+1094,Customer_94,Hyderabad,Maharashtra,basic,899,100.0,261,Postpaid,48,credit card,No,2022-08-24,2023-04-18
+1095,Customer_95,Pune,Maharashtra,Basic,999,150.0,133,Postpaid,5,Cash,No,2023-11-17,2025-03-11
+1096,Customer_96,Bangalore,Tamil Nadu,Gold,799,150.0,542,postpaid,50,credit card,No,2022-01-23,2022-03-21
+1097,Customer_97,Bangalore,Gujarat,Basic,899,100.0,227,Prepaid,22,credit card,yes,2023-10-03,2025-11-06
+1098,Customer_98,Ahmedabad,Maharashtra,Basic,599,150.0,489,Postpaid,24,Cash,Yes,2022-03-19,2024-05-11
+1099,Customer_99,Mumbai,Tamil Nadu,Basic,399,50.0,515,Prepaid,9,Cash,yes,2023-12-12,2026-01-22
+1100,Customer_100,Delhi,Karnataka,Standard,799,120.0,484,Prepaid,43,Debit Card,yes,2023-12-18,2025-07-17
+1101,Customer_101,Delhi,West Bengal,standard,999,120.0,733,postpaid,60,Cash,yes,2023-06-29,2024-08-19
+1102,Customer_102,Bangalore,West Bengal,basic,799,100.0,223,Prepaid,30,credit card,Yes,2023-01-23,2023-09-04
+1103,Customer_103,Pune,Maharashtra,Standard,599,120.0,367,Prepaid,46,Debit Card,Yes,2022-02-06,2022-07-09
+1104,Customer_104,Bangalore,Karnataka,Gold,599,50.0,674,Postpaid,56,UPI,Yes,2023-03-16,2025-06-19
+1105,Customer_105,Bangalore,Telangana,Basic,599,180.0,417,Postpaid,47,Credit Card,yes,2023-03-05,2025-01-09
+1106,Customer_106,Bangalore,Telangana,basic,599,150.0,745,Postpaid,26,Credit Card,yes,2022-10-22,2023-01-26
+1107,Customer_107,Pune,Maharashtra,basic,499,50.0,465,postpaid,6,Debit Card,No,2022-01-01,2023-07-02
+1108,Customer_108,Pune,Karnataka,Basic,799,180.0,478,postpaid,56,credit card,No,2023-10-28,2024-10-26
+1109,Customer_109,Chennai,Telangana,Premium ,899,,390,postpaid,18,Debit Card,Yes,2022-06-29,2022-09-12
+1110,Customer_110,Ahmedabad,Karnataka,Basic,399,40.0,809,Prepaid,20,credit card,yes,2024-06-13,2025-07-16
+1111,Customer_111,Delhi,Maharashtra,basic,499,,193,Postpaid,53,credit card,yes,2023-07-17,2023-09-04
+1112,Customer_112,Kolkata,Delhi,Premium ,599,180.0,729,postpaid,50,Cash,Yes,2022-07-13,2024-06-01
+1113,Customer_113,Delhi,Delhi,Premium ,999,75.0,421,Prepaid,12,Cash,No,2022-09-02,2025-02-04
+1114,Customer_114,Chennai,Karnataka,Basic,799,120.0,583,Postpaid,29,Credit Card,yes,2022-05-15,2024-04-16
+1115,Customer_115,Kolkata,Maharashtra,Premium,999,50.0,578,Postpaid,36,Credit Card,yes,2022-09-03,2024-05-29
+1116,Customer_116,Delhi,Gujarat,Premium ,399,180.0,631,Postpaid,15,UPI,yes,2023-02-23,2024-10-25
+1117,Customer_117,Hyderabad,Maharashtra,Premium ,899,,152,postpaid,19,credit card,yes,2024-02-24,2026-01-01
+1118,Customer_118,Hyderabad,Maharashtra,Premium ,599,50.0,251,postpaid,15,Credit Card,No,2022-08-29,2022-11-14
+1119,Customer_119,Bangalore,Maharashtra,standard,899,100.0,588,postpaid,27,credit card,yes,2022-12-15,2024-03-02
+1120,Customer_120,Hyderabad,Maharashtra,Basic,999,180.0,291,postpaid,14,credit card,No,2023-06-15,2024-04-04
+1121,Customer_121,Pune,Telangana,Gold,799,40.0,747,Prepaid,32,Debit Card,No,2022-12-08,2024-03-16
+1122,Customer_122,Chennai,Maharashtra,standard,499,120.0,171,postpaid,35,Debit Card,Yes,2024-03-22,2026-08-21
+1123,Customer_123,Hyderabad,Delhi,Standard,399,75.0,250,Postpaid,54,UPI,No,2022-07-22,2023-07-05
+1124,Customer_124,Pune,Maharashtra,Basic,799,75.0,858,postpaid,1,credit card,No,2023-01-18,2023-11-06
+1125,Customer_125,Pune,Gujarat,Gold,899,100.0,788,postpaid,27,Cash,yes,2022-01-11,2022-07-28
+1126,Customer_126,Delhi,Gujarat,basic,799,180.0,116,Postpaid,35,Debit Card,No,2023-05-22,2024-04-30
+1127,Customer_127,Chennai,Karnataka,standard,599,,183,Postpaid,22,UPI,yes,2023-07-05,2025-01-25
+1128,Customer_128,Bangalore,Karnataka,basic,399,150.0,828,postpaid,57,Credit Card,Yes,2023-08-29,2025-10-02
+1129,Customer_129,Ahmedabad,West Bengal,basic,499,120.0,461,Prepaid,11,Credit Card,yes,2024-03-23,2026-09-01
+1130,Customer_130,Kolkata,Tamil Nadu,Standard,799,120.0,101,Postpaid,16,Cash,yes,2022-01-04,2024-04-19
+1131,Customer_131,Mumbai,Tamil Nadu,basic,499,50.0,667,Prepaid,56,UPI,No,2022-03-01,2024-04-17
+1132,Customer_132,Ahmedabad,Maharashtra,Standard,599,150.0,455,postpaid,14,Cash,yes,2022-11-14,2023-11-29
+1133,Customer_133,Mumbai,Maharashtra,standard,599,180.0,616,postpaid,53,credit card,yes,2022-12-30,2024-11-20
+1134,Customer_134,Ahmedabad,Karnataka,Premium,399,,719,Prepaid,56,Debit Card,No,2023-10-05,2024-05-16
+1135,Customer_135,Kolkata,Delhi,Standard,399,100.0,860,Postpaid,21,Debit Card,No,2022-07-07,2024-02-28
+1136,Customer_136,Kolkata,Telangana,Basic,799,50.0,610,Postpaid,14,UPI,No,2022-04-13,2024-06-25
+1137,Customer_137,Delhi,West Bengal,Standard,399,150.0,395,Prepaid,53,UPI,No,2022-03-05,2024-01-29
+1138,Customer_138,Mumbai,Maharashtra,Basic,399,180.0,374,Prepaid,33,Cash,No,2022-07-15,2022-12-28
+1139,Customer_139,Mumbai,Telangana,Standard,899,,184,Prepaid,47,Credit Card,No,2022-02-05,2022-05-07
+1140,Customer_140,Kolkata,Tamil Nadu,Gold,599,100.0,573,Prepaid,2,Cash,yes,2022-11-05,2023-07-27
+1141,Customer_141,Kolkata,West Bengal,Gold,799,180.0,606,Prepaid,33,Cash,No,2022-02-27,2023-05-09
+1142,Customer_142,Bangalore,Maharashtra,basic,399,40.0,779,postpaid,16,Cash,yes,2024-01-12,2026-03-14
+1143,Customer_143,Hyderabad,Karnataka,Basic,899,180.0,595,postpaid,58,Credit Card,yes,2023-05-16,2024-12-19
+1144,Customer_144,Hyderabad,Maharashtra,Premium,599,75.0,483,postpaid,51,UPI,yes,2022-10-15,2024-11-06
+1145,Customer_145,Pune,Tamil Nadu,Standard,499,50.0,804,Prepaid,35,Cash,No,2024-05-30,2024-12-12
+1146,Customer_146,Mumbai,Maharashtra,standard,599,100.0,295,postpaid,21,Credit Card,yes,2022-01-28,2024-06-05
+1147,Customer_147,Kolkata,Gujarat,Premium ,899,,523,Prepaid,19,UPI,Yes,2022-11-04,2024-07-24
+1148,Customer_148,Pune,West Bengal,Premium ,499,,826,Prepaid,9,UPI,yes,2023-09-14,2023-11-12
+1149,Customer_149,Chennai,Delhi,Standard,799,50.0,537,Prepaid,56,Cash,yes,2023-03-12,2024-11-19
+1150,Customer_150,Delhi,Telangana,standard,799,40.0,193,Prepaid,52,Cash,Yes,2024-03-31,2026-05-21
+1151,Customer_151,Ahmedabad,Maharashtra,Premium,799,100.0,572,postpaid,53,credit card,yes,2024-04-17,2026-08-19
+1152,Customer_152,Ahmedabad,Gujarat,Gold,899,40.0,557,postpaid,24,UPI,yes,2023-11-07,2025-10-01
+1153,Customer_153,Delhi,Tamil Nadu,Premium,999,180.0,125,Prepaid,46,UPI,Yes,2023-01-04,2024-05-29
+1154,Customer_154,Hyderabad,Maharashtra,Basic,399,120.0,161,Prepaid,36,Cash,Yes,2023-08-04,2025-03-25
+1155,Customer_155,Bangalore,Karnataka,standard,799,180.0,288,Postpaid,41,credit card,Yes,2022-09-13,2023-02-12
+1156,Customer_156,Chennai,Karnataka,basic,899,,630,postpaid,52,UPI,Yes,2023-09-21,2025-10-14
+1157,Customer_157,Chennai,Maharashtra,Premium ,799,100.0,853,postpaid,17,UPI,yes,2022-10-01,2023-11-23
+1158,Customer_158,Delhi,Gujarat,Standard,399,150.0,709,Postpaid,10,Debit Card,Yes,2023-09-12,2025-06-26
+1159,Customer_159,Delhi,Gujarat,standard,999,150.0,579,postpaid,6,credit card,yes,2022-08-03,2024-10-08
+1160,Customer_160,Mumbai,Maharashtra,Gold,499,50.0,798,Postpaid,19,UPI,yes,2022-05-19,2023-04-24
+1161,Customer_161,Kolkata,West Bengal,Gold,399,120.0,750,postpaid,30,Cash,Yes,2023-04-17,2024-05-27
+1162,Customer_162,Mumbai,Maharashtra,Premium,899,150.0,593,Postpaid,24,UPI,No,2023-10-10,2024-04-11
+1163,Customer_163,Kolkata,Karnataka,Gold,499,100.0,269,Postpaid,44,credit card,No,2023-02-26,2023-04-12
+1164,Customer_164,Kolkata,Maharashtra,standard,899,180.0,470,Prepaid,48,credit card,No,2022-03-17,2024-03-13
+1165,Customer_165,Kolkata,Maharashtra,Premium ,399,40.0,548,Postpaid,43,Credit Card,Yes,2023-08-07,2024-03-11
+1166,Customer_166,Mumbai,Karnataka,Standard,899,,597,Postpaid,8,UPI,yes,2022-11-04,2025-02-13
+1167,Customer_167,Delhi,Maharashtra,Premium,899,100.0,503,Prepaid,12,Credit Card,No,2023-08-20,2024-08-28
+1168,Customer_168,Chennai,Gujarat,Basic,599,100.0,541,Postpaid,11,credit card,No,2022-03-30,2022-07-25
+1169,Customer_169,Bangalore,Karnataka,Premium ,999,120.0,319,Prepaid,27,Debit Card,yes,2023-10-29,2025-10-01
+1170,Customer_170,Ahmedabad,Delhi,Basic,899,120.0,133,Postpaid,6,Credit Card,No,2022-02-26,2022-03-28
+1171,Customer_171,Mumbai,Telangana,Premium ,599,50.0,168,Prepaid,30,credit card,No,2023-11-20,2025-09-14
+1172,Customer_172,Pune,Delhi,Basic,399,150.0,396,postpaid,24,Debit Card,No,2023-09-30,2023-11-17
+1173,Customer_173,Delhi,Maharashtra,Gold,799,180.0,441,Prepaid,28,credit card,yes,2023-02-09,2023-08-05
+1174,Customer_174,Kolkata,Tamil Nadu,standard,899,40.0,329,postpaid,9,Credit Card,No,2024-04-08,2026-05-27
+1175,Customer_175,Hyderabad,Maharashtra,Standard,599,40.0,175,postpaid,4,Debit Card,No,2023-02-14,2023-07-16
+1176,Customer_176,Mumbai,West Bengal,Standard,999,,333,postpaid,5,Cash,yes,2023-05-17,2024-12-21
+1177,Customer_177,Chennai,Maharashtra,Standard,899,180.0,710,Prepaid,17,Debit Card,No,2024-01-23,2025-08-23
+1178,Customer_178,Kolkata,Karnataka,Basic,599,120.0,377,Postpaid,45,Credit Card,No,2023-10-25,2025-09-24
+1179,Customer_179,Bangalore,Maharashtra,Premium,399,75.0,878,postpaid,8,Debit Card,yes,2023-05-16,2024-10-05
+1180,Customer_180,Mumbai,Karnataka,Standard,899,180.0,488,postpaid,30,UPI,yes,2024-02-25,2024-11-17
+1181,Customer_181,Hyderabad,Karnataka,Gold,499,50.0,142,Postpaid,52,Cash,Yes,2024-02-01,2024-07-30
+1182,Customer_182,Hyderabad,Karnataka,standard,899,120.0,559,Postpaid,55,Debit Card,Yes,2023-06-17,2025-10-20
+1183,Customer_183,Pune,Tamil Nadu,Premium ,799,100.0,598,postpaid,32,Cash,yes,2022-09-02,2024-09-23
+1184,Customer_184,Pune,Gujarat,standard,599,50.0,378,Prepaid,18,Debit Card,yes,2022-07-07,2023-11-01
+1185,Customer_185,Delhi,Maharashtra,Basic,499,180.0,698,postpaid,34,UPI,yes,2022-04-26,2024-07-28
+1186,Customer_186,Kolkata,Tamil Nadu,standard,499,75.0,545,postpaid,6,UPI,yes,2022-03-25,2022-05-24
+1187,Customer_187,Delhi,Delhi,Standard,499,,235,postpaid,46,UPI,Yes,2022-07-14,2022-10-29
+1188,Customer_188,Mumbai,Gujarat,Gold,799,150.0,768,Postpaid,49,Credit Card,No,2022-12-29,2023-06-05
+1189,Customer_189,Pune,Telangana,Basic,599,,251,postpaid,38,UPI,yes,2023-04-05,2025-06-19
+1190,Customer_190,Kolkata,Telangana,Premium ,499,180.0,362,Prepaid,32,credit card,Yes,2023-01-26,2024-09-16
+1191,Customer_191,Bangalore,Karnataka,Premium,799,50.0,132,Prepaid,33,UPI,No,2023-02-14,2025-04-13
+1192,Customer_192,Ahmedabad,West Bengal,Premium,999,,394,postpaid,51,UPI,No,2023-02-05,2024-08-12
+1193,Customer_193,Bangalore,Karnataka,Premium,899,75.0,402,Prepaid,34,credit card,Yes,2024-04-14,2024-12-19
+1194,Customer_194,Pune,Telangana,basic,499,,751,Postpaid,33,Credit Card,yes,2023-03-19,2024-10-23
+1195,Customer_195,Mumbai,Delhi,Standard,899,100.0,352,postpaid,45,Cash,yes,2022-09-02,2023-02-04
+1196,Customer_196,Chennai,Maharashtra,Premium ,799,,220,postpaid,5,Debit Card,No,2022-06-26,2023-06-27
+1197,Customer_197,Chennai,Maharashtra,Gold,499,75.0,688,Prepaid,8,UPI,No,2023-08-28,2025-04-22
+1198,Customer_198,Ahmedabad,Gujarat,Premium,399,,513,Postpaid,27,Cash,No,2022-12-21,2025-05-20
+1199,Customer_199,Chennai,Maharashtra,Gold,499,75.0,252,Prepaid,29,Credit Card,yes,2022-04-23,2024-06-23
+1200,Customer_200,Kolkata,Delhi,Standard,799,150.0,768,Prepaid,54,Credit Card,Yes,2024-05-05,2025-11-10
+1201,Customer_201,Bangalore,Maharashtra,Standard,399,75.0,557,Postpaid,25,Credit Card,yes,2023-01-28,2024-01-23
+1202,Customer_202,Ahmedabad,Gujarat,Basic,999,120.0,406,postpaid,34,credit card,No,2023-06-27,2024-06-23
+1203,Customer_203,Hyderabad,Tamil Nadu,standard,399,40.0,293,Prepaid,29,Debit Card,yes,2023-06-19,2025-03-26
+1204,Customer_204,Chennai,Karnataka,Standard,399,120.0,674,Postpaid,26,Debit Card,No,2022-04-16,2023-05-28
+1205,Customer_205,Bangalore,West Bengal,standard,799,75.0,574,Postpaid,13,Cash,Yes,2023-01-08,2023-04-24
+1206,Customer_206,Ahmedabad,Maharashtra,Gold,499,50.0,853,postpaid,15,credit card,yes,2023-02-10,2023-06-26
+1207,Customer_207,Delhi,West Bengal,Basic,799,50.0,283,postpaid,17,credit card,Yes,2023-11-08,2026-04-06
+1208,Customer_208,Pune,Gujarat,Gold,599,100.0,688,Postpaid,53,Debit Card,yes,2023-04-14,2025-07-16
+1209,Customer_209,Pune,Maharashtra,Basic,399,,463,Prepaid,17,Credit Card,yes,2023-10-02,2024-11-11
+1210,Customer_210,Kolkata,Karnataka,Premium ,599,180.0,537,postpaid,4,Cash,Yes,2023-07-18,2025-08-02
+1211,Customer_211,Kolkata,West Bengal,Premium,599,50.0,242,Prepaid,17,UPI,Yes,2024-05-02,2026-10-19
+1212,Customer_212,Ahmedabad,Karnataka,Basic,899,180.0,325,Postpaid,8,credit card,Yes,2023-04-01,2024-09-03
+1213,Customer_213,Mumbai,Tamil Nadu,Standard,599,50.0,160,Prepaid,47,Cash,yes,2023-09-06,2025-08-30
+1214,Customer_214,Pune,Karnataka,Premium,399,150.0,466,Prepaid,51,Credit Card,Yes,2022-02-07,2023-10-06
+1215,Customer_215,Mumbai,West Bengal,Premium ,599,180.0,252,Postpaid,20,UPI,No,2022-09-19,2023-10-17
+1216,Customer_216,Chennai,Maharashtra,Premium,999,,817,Prepaid,44,Debit Card,Yes,2023-03-05,2024-03-01
+1217,Customer_217,Chennai,Telangana,Premium ,399,100.0,631,Prepaid,25,UPI,No,2023-07-03,2024-03-16
+1218,Customer_218,Bangalore,West Bengal,standard,899,100.0,836,Postpaid,12,Debit Card,No,2024-02-19,2026-07-05
+1219,Customer_219,Chennai,Delhi,Gold,399,150.0,723,Prepaid,53,Cash,Yes,2023-09-17,2025-10-06
+1220,Customer_220,Ahmedabad,Karnataka,basic,599,180.0,772,postpaid,17,UPI,No,2023-04-17,2025-03-31
+1221,Customer_221,Bangalore,Telangana,Basic,599,50.0,538,postpaid,51,UPI,Yes,2022-09-09,2023-08-25
+1222,Customer_222,Kolkata,Telangana,Standard,399,150.0,646,postpaid,26,credit card,yes,2023-03-10,2025-08-12
+1223,Customer_223,Mumbai,West Bengal,Basic,899,,755,Prepaid,52,Debit Card,Yes,2022-08-14,2024-07-09
+1224,Customer_224,Ahmedabad,Maharashtra,Gold,999,50.0,663,Postpaid,16,credit card,yes,2023-04-30,2024-12-05
+1225,Customer_225,Mumbai,Tamil Nadu,Basic,599,75.0,818,Prepaid,28,Credit Card,yes,2023-04-05,2023-12-01
+1226,Customer_226,Bangalore,West Bengal,Gold,899,180.0,136,postpaid,30,UPI,Yes,2023-10-16,2026-02-03
+1227,Customer_227,Kolkata,Tamil Nadu,Premium ,499,,272,postpaid,48,Debit Card,Yes,2024-03-18,2024-05-28
+1228,Customer_228,Kolkata,Maharashtra,Basic,399,120.0,899,Prepaid,17,Credit Card,No,2023-11-07,2024-12-14
+1229,Customer_229,Kolkata,Maharashtra,standard,999,120.0,827,postpaid,52,UPI,No,2024-02-23,2026-07-17
+1230,Customer_230,Mumbai,Tamil Nadu,Gold,399,100.0,464,Prepaid,47,credit card,Yes,2022-04-08,2023-10-21
+1231,Customer_231,Bangalore,Delhi,Standard,999,50.0,578,Prepaid,33,UPI,No,2022-05-12,2023-06-18
+1232,Customer_232,Hyderabad,Tamil Nadu,Basic,599,120.0,243,Prepaid,36,Debit Card,yes,2024-03-29,2026-04-02
+1233,Customer_233,Ahmedabad,Tamil Nadu,Premium,799,180.0,751,postpaid,21,UPI,Yes,2023-09-21,2026-01-23
+1234,Customer_234,Kolkata,West Bengal,standard,399,180.0,137,Prepaid,15,Cash,Yes,2022-06-25,2023-02-07
+1235,Customer_235,Kolkata,Tamil Nadu,standard,399,180.0,105,postpaid,18,Debit Card,No,2022-04-11,2022-10-10
+1236,Customer_236,Pune,Maharashtra,Standard,799,150.0,802,postpaid,24,Debit Card,yes,2023-05-07,2024-09-01
+1237,Customer_237,Mumbai,Maharashtra,standard,899,,430,Postpaid,34,UPI,No,2023-03-20,2024-01-27
+1238,Customer_238,Delhi,Telangana,Standard,399,150.0,753,Prepaid,9,credit card,No,2023-08-21,2025-05-18
+1239,Customer_239,Ahmedabad,Tamil Nadu,Premium,899,75.0,566,postpaid,58,Cash,Yes,2024-02-22,2025-11-11
+1240,Customer_240,Hyderabad,Delhi,standard,599,180.0,452,Prepaid,17,Cash,No,2024-02-02,2025-01-03
+1241,Customer_241,Chennai,Maharashtra,Standard,399,50.0,371,Prepaid,45,UPI,yes,2023-02-07,2025-01-01
+1242,Customer_242,Pune,Delhi,Gold,999,120.0,302,postpaid,6,Cash,Yes,2023-10-18,2025-02-16
+1243,Customer_243,Chennai,Karnataka,Premium ,999,180.0,384,Postpaid,29,credit card,Yes,2023-11-24,2024-07-29
+1244,Customer_244,Ahmedabad,Gujarat,Premium ,599,50.0,325,Prepaid,29,UPI,Yes,2022-08-26,2024-03-08
+1245,Customer_245,Pune,Maharashtra,Basic,899,120.0,391,postpaid,22,Credit Card,Yes,2023-07-19,2025-12-10
+1246,Customer_246,Chennai,Maharashtra,Basic,999,50.0,465,Prepaid,6,credit card,No,2023-10-30,2025-09-24
+1247,Customer_247,Pune,West Bengal,Basic,899,75.0,857,postpaid,12,Cash,yes,2024-03-18,2024-05-30
+1248,Customer_248,Hyderabad,West Bengal,basic,399,100.0,531,Postpaid,25,Debit Card,Yes,2024-03-27,2025-04-08
+1249,Customer_249,Delhi,West Bengal,Gold,399,50.0,307,Postpaid,22,credit card,yes,2024-05-04,2026-07-21
+1250,Customer_250,Mumbai,Telangana,Gold,999,120.0,408,postpaid,2,Debit Card,Yes,2023-12-23,2025-02-23
+1251,Customer_251,Delhi,Delhi,Gold,899,,666,postpaid,7,Debit Card,yes,2023-06-27,2024-11-16
+1252,Customer_252,Bangalore,Maharashtra,standard,599,120.0,263,Prepaid,56,UPI,No,2022-11-08,2024-03-14
+1253,Customer_253,Kolkata,Karnataka,Premium,999,120.0,293,Prepaid,2,Cash,yes,2023-02-04,2024-08-23
+1254,Customer_254,Pune,Delhi,Premium ,999,50.0,776,Prepaid,52,UPI,yes,2022-01-13,2024-05-03
+1255,Customer_255,Hyderabad,Delhi,standard,499,120.0,464,Postpaid,57,UPI,No,2022-11-23,2023-07-23
+1256,Customer_256,Bangalore,Karnataka,basic,799,50.0,815,postpaid,60,Cash,Yes,2023-11-27,2024-11-26
+1257,Customer_257,Hyderabad,Maharashtra,standard,599,100.0,803,Prepaid,60,Credit Card,Yes,2023-08-23,2024-07-18
+1258,Customer_258,Delhi,West Bengal,Premium,399,75.0,301,postpaid,8,Debit Card,yes,2024-03-21,2025-07-13
+1259,Customer_259,Delhi,Maharashtra,Gold,399,120.0,520,Postpaid,54,Cash,yes,2023-12-26,2025-05-04
+1260,Customer_260,Ahmedabad,Tamil Nadu,Standard,999,180.0,501,Postpaid,38,Debit Card,No,2022-01-07,2023-07-20
+1261,Customer_261,Delhi,Gujarat,Standard,899,75.0,436,postpaid,31,Cash,No,2022-09-10,2024-08-11
+1262,Customer_262,Hyderabad,Karnataka,basic,499,50.0,107,Postpaid,51,credit card,No,2022-04-05,2024-07-27
+1263,Customer_263,Delhi,Telangana,Standard,399,120.0,824,postpaid,7,UPI,yes,2023-12-23,2024-06-01
+1264,Customer_264,Bangalore,Telangana,Basic,999,150.0,294,Prepaid,54,Debit Card,Yes,2022-08-22,2023-02-18
+1265,Customer_265,Kolkata,Maharashtra,Basic,499,100.0,714,Postpaid,52,UPI,yes,2023-07-22,2025-09-22
+1266,Customer_266,Hyderabad,Delhi,Basic,499,100.0,448,Prepaid,31,UPI,Yes,2022-07-15,2024-05-08
+1267,Customer_267,Ahmedabad,Maharashtra,Standard,899,,296,postpaid,28,Cash,yes,2023-12-12,2026-02-28
+1268,Customer_268,Chennai,Telangana,standard,399,75.0,548,Prepaid,58,credit card,No,2023-09-10,2025-06-21
+1269,Customer_269,Ahmedabad,Maharashtra,Gold,799,,279,postpaid,53,UPI,No,2023-01-27,2023-08-04
+1270,Customer_270,Hyderabad,Tamil Nadu,Standard,499,120.0,225,Postpaid,24,UPI,yes,2022-03-06,2023-09-04
+1271,Customer_271,Delhi,Maharashtra,Gold,899,,468,Prepaid,60,credit card,yes,2022-08-13,2024-06-17
+1272,Customer_272,Delhi,West Bengal,Gold,799,120.0,804,postpaid,33,Cash,Yes,2023-12-25,2025-08-05
+1273,Customer_273,Mumbai,Maharashtra,Premium,599,180.0,873,Prepaid,13,Credit Card,No,2022-01-17,2023-08-12
+1274,Customer_274,Bangalore,West Bengal,standard,899,75.0,231,Postpaid,20,Debit Card,No,2022-03-18,2023-02-16
+1275,Customer_275,Mumbai,Maharashtra,Standard,899,75.0,546,postpaid,35,Credit Card,Yes,2022-09-13,2022-10-22
+1276,Customer_276,Hyderabad,Karnataka,Gold,899,100.0,807,Postpaid,35,Credit Card,Yes,2024-05-09,2025-03-19
+1277,Customer_277,Pune,Maharashtra,Gold,499,150.0,561,Prepaid,52,UPI,Yes,2022-11-29,2024-01-04
+1278,Customer_278,Delhi,Gujarat,Premium ,999,120.0,725,postpaid,42,Credit Card,No,2023-12-20,2026-03-11
+1279,Customer_279,Delhi,West Bengal,Basic,799,50.0,382,Postpaid,11,UPI,Yes,2023-01-10,2024-02-11
+1280,Customer_280,Delhi,Maharashtra,standard,899,75.0,771,postpaid,45,UPI,yes,2024-05-16,2025-07-25
+1281,Customer_281,Chennai,Telangana,Premium,399,50.0,509,Postpaid,51,Debit Card,yes,2022-11-10,2024-08-27
+1282,Customer_282,Hyderabad,Telangana,Gold,599,150.0,158,postpaid,50,credit card,No,2022-09-26,2023-11-23
+1283,Customer_283,Hyderabad,Tamil Nadu,Gold,599,120.0,294,postpaid,51,UPI,Yes,2022-05-23,2023-02-24
+1284,Customer_284,Delhi,West Bengal,Standard,499,150.0,247,postpaid,49,Credit Card,yes,2023-09-02,2025-06-08
+1285,Customer_285,Pune,Karnataka,Premium ,399,180.0,678,Postpaid,1,UPI,No,2023-11-28,2025-09-27
+1286,Customer_286,Bangalore,Delhi,Premium ,799,120.0,575,postpaid,18,Credit Card,No,2023-02-16,2023-06-23
+1287,Customer_287,Mumbai,Delhi,Gold,599,150.0,270,Postpaid,7,Cash,yes,2023-02-21,2023-07-31
+1288,Customer_288,Bangalore,Karnataka,basic,499,40.0,409,postpaid,49,Credit Card,yes,2022-10-28,2025-02-18
+1289,Customer_289,Mumbai,Tamil Nadu,Standard,499,50.0,449,Postpaid,44,credit card,No,2022-10-27,2023-09-17
+1290,Customer_290,Hyderabad,West Bengal,Gold,899,100.0,241,postpaid,44,Debit Card,Yes,2023-08-17,2024-02-27
+1291,Customer_291,Delhi,Karnataka,Basic,399,40.0,395,Prepaid,57,UPI,Yes,2022-08-01,2023-03-21
+1292,Customer_292,Ahmedabad,Telangana,Premium,399,180.0,288,Postpaid,25,UPI,yes,2023-11-14,2025-10-10
+1293,Customer_293,Delhi,Maharashtra,Basic,499,180.0,154,Prepaid,19,Credit Card,No,2022-01-11,2024-02-03
+1294,Customer_294,Chennai,Maharashtra,Premium,799,75.0,654,Postpaid,48,credit card,yes,2022-12-13,2024-09-26
+1295,Customer_295,Pune,Maharashtra,standard,799,150.0,406,Postpaid,40,Debit Card,yes,2023-05-13,2025-04-29
+1296,Customer_296,Pune,Telangana,Basic,599,75.0,144,Postpaid,39,Cash,No,2022-12-26,2025-05-21
+1297,Customer_297,Mumbai,Karnataka,Premium,799,100.0,317,postpaid,35,credit card,Yes,2024-05-09,2024-09-15
+1298,Customer_298,Bangalore,Karnataka,Premium ,499,,681,postpaid,14,Debit Card,Yes,2023-05-29,2024-08-27
+1299,Customer_299,Ahmedabad,Maharashtra,Premium ,399,,891,postpaid,15,credit card,yes,2022-08-09,2024-02-02
+1300,Customer_300,Hyderabad,Tamil Nadu,basic,799,40.0,152,Postpaid,49,credit card,Yes,2022-02-18,2022-07-23
+1301,Customer_301,Delhi,Maharashtra,Premium ,899,50.0,748,Prepaid,23,Debit Card,Yes,2022-09-24,2024-05-29
+1302,Customer_302,Kolkata,Maharashtra,Standard,499,75.0,846,Postpaid,3,UPI,Yes,2023-05-01,2024-04-22
+1303,Customer_303,Pune,Karnataka,Standard,799,100.0,707,Postpaid,17,UPI,Yes,2022-12-04,2023-04-17
+1304,Customer_304,Chennai,West Bengal,Premium,399,120.0,775,postpaid,43,credit card,No,2022-08-24,2023-10-03
+1305,Customer_305,Bangalore,Telangana,basic,899,75.0,736,postpaid,44,UPI,Yes,2024-03-14,2025-07-03
+1306,Customer_306,Pune,Telangana,Premium ,799,120.0,336,Prepaid,48,UPI,No,2024-03-03,2025-09-07
+1307,Customer_307,Bangalore,Maharashtra,standard,799,40.0,192,Postpaid,46,UPI,No,2023-03-02,2023-09-16
+1308,Customer_308,Chennai,Gujarat,standard,799,50.0,279,postpaid,58,Credit Card,Yes,2023-06-07,2024-04-07
+1309,Customer_309,Mumbai,Maharashtra,basic,599,50.0,538,Postpaid,14,UPI,No,2023-08-20,2024-12-11
+1310,Customer_310,Bangalore,Telangana,Premium ,599,180.0,292,Prepaid,51,Credit Card,yes,2024-02-06,2024-04-24
+1311,Customer_311,Kolkata,Delhi,standard,399,50.0,500,Prepaid,12,UPI,yes,2024-06-11,2026-08-06
+1312,Customer_312,Ahmedabad,West Bengal,Premium ,599,,804,Postpaid,13,Cash,No,2022-07-22,2024-11-22
+1313,Customer_313,Hyderabad,Tamil Nadu,Standard,899,120.0,102,postpaid,31,credit card,yes,2022-02-19,2023-07-30
+1314,Customer_314,Hyderabad,Maharashtra,standard,799,150.0,274,Prepaid,33,Debit Card,No,2022-08-15,2023-04-10
+1315,Customer_315,Pune,Karnataka,basic,599,120.0,143,Postpaid,32,Debit Card,yes,2023-08-01,2025-04-04
+1316,Customer_316,Delhi,Karnataka,basic,999,180.0,170,Postpaid,45,Credit Card,yes,2023-07-29,2024-08-31
+1317,Customer_317,Ahmedabad,Karnataka,basic,999,150.0,368,postpaid,13,Credit Card,No,2022-01-07,2024-01-28
+1318,Customer_318,Mumbai,Tamil Nadu,Basic,999,75.0,718,postpaid,31,Debit Card,No,2022-08-13,2022-10-03
+1319,Customer_319,Pune,West Bengal,Basic,799,150.0,711,Postpaid,46,Debit Card,Yes,2023-02-14,2024-09-20
+1320,Customer_320,Bangalore,Karnataka,Basic,899,120.0,446,postpaid,10,UPI,yes,2023-12-21,2024-05-23
+1321,Customer_321,Delhi,Gujarat,Basic,899,50.0,391,postpaid,39,UPI,Yes,2022-04-10,2024-06-18
+1322,Customer_322,Delhi,West Bengal,Gold,999,100.0,729,Postpaid,49,Debit Card,Yes,2023-04-03,2024-05-15
+1323,Customer_323,Ahmedabad,Maharashtra,Basic,399,75.0,424,Postpaid,39,credit card,yes,2023-07-05,2023-10-13
+1324,Customer_324,Ahmedabad,Telangana,Premium ,999,120.0,780,postpaid,34,credit card,yes,2022-05-11,2023-12-10
+1325,Customer_325,Pune,Gujarat,basic,599,100.0,476,postpaid,20,Debit Card,yes,2023-04-07,2024-08-06
+1326,Customer_326,Chennai,Tamil Nadu,Basic,799,50.0,209,postpaid,23,Debit Card,yes,2022-07-30,2023-01-03
+1327,Customer_327,Chennai,West Bengal,Premium ,899,,659,Postpaid,48,Credit Card,Yes,2023-07-03,2023-12-27
+1328,Customer_328,Bangalore,West Bengal,Gold,799,50.0,593,Prepaid,12,Cash,yes,2022-05-28,2024-04-01
+1329,Customer_329,Hyderabad,Delhi,Standard,899,50.0,566,Postpaid,45,Credit Card,Yes,2024-04-27,2025-02-22
+1330,Customer_330,Pune,Tamil Nadu,Premium ,399,75.0,610,postpaid,4,UPI,yes,2022-10-06,2022-11-07
+1331,Customer_331,Delhi,Maharashtra,Premium,899,120.0,440,postpaid,23,Debit Card,No,2023-01-02,2023-09-30
+1332,Customer_332,Bangalore,Karnataka,Premium ,499,50.0,167,Postpaid,52,credit card,No,2023-11-21,2024-05-12
+1333,Customer_333,Ahmedabad,Tamil Nadu,Premium ,399,,213,Prepaid,37,Debit Card,yes,2024-03-12,2024-12-19
+1334,Customer_334,Kolkata,West Bengal,Premium,799,180.0,417,Postpaid,11,UPI,Yes,2024-04-22,2025-06-14
+1335,Customer_335,Mumbai,Telangana,Basic,999,40.0,742,Postpaid,7,credit card,Yes,2024-05-20,2024-11-08
+1336,Customer_336,Hyderabad,Maharashtra,standard,599,120.0,682,Postpaid,23,Debit Card,yes,2022-08-22,2022-10-06
+1337,Customer_337,Bangalore,West Bengal,Premium ,399,75.0,553,Prepaid,9,Cash,No,2022-06-26,2024-11-07
+1338,Customer_338,Mumbai,Maharashtra,Premium ,499,150.0,417,postpaid,13,Cash,Yes,2023-01-20,2023-10-15
+1339,Customer_339,Kolkata,Karnataka,Premium,999,40.0,246,Prepaid,41,Cash,Yes,2022-11-27,2023-09-25
+1340,Customer_340,Bangalore,West Bengal,Premium ,999,150.0,372,Postpaid,40,UPI,Yes,2023-01-22,2023-03-20
+1341,Customer_341,Hyderabad,Delhi,Premium,799,,739,Prepaid,12,credit card,No,2023-05-16,2024-10-30
+1342,Customer_342,Kolkata,Tamil Nadu,Gold,899,40.0,894,Postpaid,58,Credit Card,No,2022-02-13,2023-05-11
+1343,Customer_343,Bangalore,Maharashtra,standard,899,50.0,655,Prepaid,6,Credit Card,No,2024-03-21,2026-06-11
+1344,Customer_344,Chennai,Maharashtra,Gold,499,150.0,355,Postpaid,30,Credit Card,yes,2024-03-06,2026-01-14
+1345,Customer_345,Ahmedabad,Tamil Nadu,basic,399,,781,Prepaid,34,UPI,No,2023-04-17,2023-06-28
+1346,Customer_346,Mumbai,Delhi,Basic,399,150.0,863,Postpaid,9,UPI,No,2022-12-17,2023-09-05
+1347,Customer_347,Ahmedabad,Tamil Nadu,Standard,799,40.0,720,Postpaid,25,UPI,No,2022-08-13,2024-06-17
+1348,Customer_348,Chennai,Maharashtra,Premium,899,50.0,468,postpaid,3,credit card,Yes,2022-07-09,2023-04-19
+1349,Customer_349,Chennai,Karnataka,Premium,399,40.0,106,Postpaid,3,Cash,No,2022-01-15,2023-05-01
+1350,Customer_350,Bangalore,Delhi,basic,599,100.0,445,Prepaid,20,Debit Card,No,2022-08-11,2023-08-14
+1351,Customer_351,Pune,Karnataka,Premium,499,150.0,536,Postpaid,29,credit card,yes,2022-12-25,2023-11-02
+1352,Customer_352,Chennai,West Bengal,Basic,999,180.0,530,Prepaid,10,Credit Card,Yes,2022-04-09,2023-09-02
+1353,Customer_353,Delhi,Gujarat,standard,399,150.0,428,Postpaid,52,UPI,yes,2022-08-03,2024-10-09
+1354,Customer_354,Kolkata,Maharashtra,basic,599,100.0,516,postpaid,37,UPI,Yes,2022-08-21,2024-10-06
+1355,Customer_355,Pune,Karnataka,standard,499,50.0,721,Postpaid,27,UPI,yes,2023-10-27,2024-05-21
+1356,Customer_356,Mumbai,Delhi,Premium ,799,100.0,211,Postpaid,40,Cash,yes,2022-07-08,2024-02-04
+1357,Customer_357,Hyderabad,Telangana,Gold,999,75.0,487,postpaid,45,Cash,No,2022-08-25,2024-06-28
+1358,Customer_358,Delhi,Telangana,Premium ,399,100.0,714,Postpaid,49,Cash,yes,2024-01-09,2026-02-24
+1359,Customer_359,Hyderabad,West Bengal,Basic,399,150.0,643,postpaid,43,Debit Card,yes,2024-05-04,2024-06-06
+1360,Customer_360,Hyderabad,West Bengal,Premium ,399,50.0,437,postpaid,8,credit card,Yes,2022-04-14,2022-08-08
+1361,Customer_361,Mumbai,Tamil Nadu,Standard,499,40.0,170,Postpaid,29,Cash,Yes,2022-03-01,2023-07-10
+1362,Customer_362,Mumbai,Maharashtra,Premium,599,100.0,178,Prepaid,37,credit card,Yes,2022-12-21,2024-11-10
+1363,Customer_363,Delhi,Maharashtra,basic,999,,272,postpaid,41,Credit Card,Yes,2022-09-27,2024-02-07
+1364,Customer_364,Ahmedabad,Delhi,standard,799,100.0,183,Postpaid,11,credit card,No,2022-06-10,2023-02-02
+1365,Customer_365,Pune,West Bengal,Premium ,899,,491,Prepaid,41,Debit Card,Yes,2022-10-18,2024-07-04
+1366,Customer_366,Bangalore,Karnataka,Gold,999,50.0,136,Postpaid,55,UPI,yes,2023-06-13,2025-10-28
+1367,Customer_367,Delhi,Maharashtra,Basic,399,180.0,501,Postpaid,47,Credit Card,Yes,2023-05-29,2024-02-02
+1368,Customer_368,Delhi,Karnataka,standard,599,100.0,575,Postpaid,43,credit card,Yes,2022-10-28,2022-12-29
+1369,Customer_369,Mumbai,West Bengal,Premium,799,100.0,461,Postpaid,51,UPI,Yes,2023-07-18,2023-08-26
+1370,Customer_370,Ahmedabad,West Bengal,standard,999,,163,Postpaid,33,Debit Card,No,2023-04-03,2025-05-12
+1371,Customer_371,Hyderabad,Karnataka,Gold,899,,857,Prepaid,11,Credit Card,Yes,2023-06-10,2025-05-03
+1372,Customer_372,Kolkata,Gujarat,basic,399,120.0,113,postpaid,18,Cash,Yes,2022-01-21,2022-12-17
+1373,Customer_373,Delhi,Maharashtra,Premium,599,,740,postpaid,33,Cash,Yes,2023-11-18,2024-04-18
+1374,Customer_374,Ahmedabad,Gujarat,Premium,999,50.0,896,postpaid,40,UPI,Yes,2023-02-14,2023-09-25
+1375,Customer_375,Chennai,Delhi,Premium,599,40.0,174,postpaid,28,Credit Card,Yes,2023-12-04,2026-03-16
+1376,Customer_376,Hyderabad,Gujarat,Standard,399,50.0,313,Postpaid,28,UPI,No,2023-01-20,2023-04-17
+1377,Customer_377,Mumbai,Gujarat,Standard,599,150.0,509,Postpaid,16,Credit Card,yes,2024-06-15,2025-11-25
+1378,Customer_378,Pune,West Bengal,basic,999,,545,Postpaid,31,UPI,No,2023-03-24,2025-05-06
+1379,Customer_379,Pune,Maharashtra,Basic,799,50.0,170,Postpaid,33,UPI,Yes,2024-02-23,2026-06-01
+1380,Customer_380,Kolkata,Telangana,Premium ,899,120.0,471,Prepaid,57,Debit Card,No,2023-10-05,2024-09-23
+1381,Customer_381,Bangalore,Delhi,Standard,899,180.0,707,Postpaid,2,Debit Card,yes,2023-05-15,2025-04-25
+1382,Customer_382,Delhi,Telangana,Standard,999,120.0,641,Prepaid,49,Credit Card,No,2023-06-01,2024-01-30
+1383,Customer_383,Delhi,Maharashtra,Basic,899,75.0,881,Prepaid,28,UPI,Yes,2024-05-17,2025-06-28
+1384,Customer_384,Chennai,Maharashtra,Premium,799,40.0,757,postpaid,4,Cash,No,2024-06-14,2025-09-22
+1385,Customer_385,Chennai,Maharashtra,Premium ,399,120.0,708,Prepaid,58,Cash,Yes,2023-07-17,2024-07-03
+1386,Customer_386,Delhi,Maharashtra,Basic,399,40.0,407,Prepaid,32,Debit Card,Yes,2022-02-18,2023-01-03
+1387,Customer_387,Chennai,West Bengal,Basic,799,120.0,758,Prepaid,16,Cash,Yes,2022-04-19,2023-06-07
+1388,Customer_388,Mumbai,Delhi,Premium ,499,120.0,446,Prepaid,46,UPI,Yes,2023-08-02,2024-10-20
+1389,Customer_389,Mumbai,Delhi,Premium ,799,,559,postpaid,30,Cash,yes,2023-05-19,2024-08-02
+1390,Customer_390,Hyderabad,Maharashtra,basic,799,180.0,863,Postpaid,3,Credit Card,yes,2022-05-16,2024-05-08
+1391,Customer_391,Delhi,Maharashtra,basic,499,75.0,886,postpaid,6,credit card,No,2024-05-08,2025-12-14
+1392,Customer_392,Kolkata,West Bengal,Gold,999,120.0,700,Prepaid,35,UPI,yes,2023-01-17,2023-04-26
+1393,Customer_393,Ahmedabad,Telangana,Basic,899,50.0,602,Postpaid,25,Credit Card,yes,2023-05-28,2025-03-12
+1394,Customer_394,Pune,Telangana,Standard,399,,113,postpaid,10,Debit Card,No,2024-03-23,2026-02-06
+1395,Customer_395,Chennai,Gujarat,Gold,499,,893,Postpaid,10,Credit Card,No,2023-04-05,2024-05-12
+1396,Customer_396,Delhi,Maharashtra,basic,499,,628,Prepaid,18,Debit Card,No,2024-02-25,2026-05-22
+1397,Customer_397,Pune,Telangana,Premium,499,40.0,895,postpaid,54,Debit Card,Yes,2024-05-03,2026-09-05
+1398,Customer_398,Hyderabad,Karnataka,Gold,499,180.0,882,Postpaid,3,UPI,yes,2024-02-25,2025-06-04
+1399,Customer_399,Chennai,Gujarat,Premium ,499,50.0,319,Postpaid,19,UPI,yes,2023-11-27,2024-12-28
+1400,Customer_400,Bangalore,West Bengal,Basic,899,,723,Postpaid,47,Debit Card,No,2024-02-26,2024-11-15
+1401,Customer_401,Hyderabad,Gujarat,basic,899,120.0,208,Postpaid,13,UPI,Yes,2022-11-24,2023-07-31
+1402,Customer_402,Pune,Tamil Nadu,Premium,499,120.0,425,postpaid,48,Debit Card,yes,2023-07-05,2025-06-13
+1403,Customer_403,Delhi,Karnataka,standard,999,,558,Postpaid,16,Credit Card,yes,2022-02-09,2022-07-01
+1404,Customer_404,Bangalore,Maharashtra,Premium ,999,40.0,536,postpaid,55,UPI,No,2023-03-06,2023-12-09
+1405,Customer_405,Hyderabad,Tamil Nadu,Standard,399,120.0,496,Prepaid,48,Cash,yes,2022-11-14,2023-08-12
+1406,Customer_406,Ahmedabad,Telangana,Basic,499,75.0,565,postpaid,46,credit card,yes,2024-02-10,2025-07-09
+1407,Customer_407,Ahmedabad,West Bengal,standard,799,75.0,469,postpaid,35,credit card,Yes,2023-12-12,2025-02-28
+1408,Customer_408,Ahmedabad,Maharashtra,Basic,899,50.0,121,Postpaid,23,UPI,yes,2023-05-09,2025-02-28
+1409,Customer_409,Bangalore,West Bengal,standard,599,120.0,352,Postpaid,46,Credit Card,No,2023-03-16,2025-07-10
+1410,Customer_410,Kolkata,Telangana,standard,499,75.0,584,Postpaid,31,Credit Card,yes,2023-02-19,2024-01-25
+1411,Customer_411,Pune,Tamil Nadu,standard,899,75.0,510,Prepaid,46,credit card,No,2024-02-28,2024-07-02
+1412,Customer_412,Mumbai,Telangana,Basic,799,40.0,530,Prepaid,58,Credit Card,No,2022-05-04,2023-11-20
+1413,Customer_413,Delhi,Telangana,standard,999,100.0,747,Prepaid,18,Credit Card,yes,2022-01-25,2023-11-05
+1414,Customer_414,Hyderabad,Tamil Nadu,Premium,399,180.0,478,postpaid,29,Debit Card,No,2022-11-23,2025-01-30
+1415,Customer_415,Hyderabad,Tamil Nadu,Gold,599,180.0,640,Prepaid,40,UPI,No,2024-05-14,2025-12-06
+1416,Customer_416,Mumbai,Karnataka,Standard,499,40.0,754,postpaid,10,Debit Card,Yes,2024-01-13,2026-06-01
+1417,Customer_417,Delhi,West Bengal,Standard,899,120.0,113,postpaid,52,Credit Card,No,2022-06-26,2022-08-31
+1418,Customer_418,Chennai,West Bengal,Premium,599,50.0,294,Postpaid,55,Debit Card,yes,2023-05-27,2024-01-12
+1419,Customer_419,Hyderabad,West Bengal,Gold,599,150.0,871,Postpaid,18,credit card,Yes,2024-03-31,2024-11-13
+1420,Customer_420,Kolkata,West Bengal,Premium,799,75.0,567,postpaid,46,credit card,No,2022-08-01,2025-01-08
+1421,Customer_421,Bangalore,Delhi,Premium ,999,75.0,433,Prepaid,6,UPI,Yes,2022-05-02,2022-07-02
+1422,Customer_422,Ahmedabad,Tamil Nadu,Basic,599,150.0,163,Prepaid,43,credit card,No,2024-05-23,2025-11-11
+1423,Customer_423,Kolkata,Tamil Nadu,Basic,499,100.0,124,postpaid,10,Debit Card,Yes,2023-02-19,2024-08-20
+1424,Customer_424,Pune,Telangana,Premium,999,180.0,666,postpaid,55,Credit Card,No,2022-07-17,2023-08-28
+1425,Customer_425,Hyderabad,Delhi,Premium ,899,50.0,497,Prepaid,19,Credit Card,No,2022-11-01,2023-07-14
+1426,Customer_426,Kolkata,Maharashtra,Premium ,799,75.0,345,Prepaid,60,credit card,yes,2023-12-19,2025-10-27
+1427,Customer_427,Bangalore,Tamil Nadu,Standard,999,50.0,189,Prepaid,59,Credit Card,Yes,2023-03-25,2023-09-24
+1428,Customer_428,Ahmedabad,Karnataka,standard,399,150.0,532,Postpaid,36,Debit Card,yes,2023-05-20,2023-10-27
+1429,Customer_429,Kolkata,Karnataka,standard,499,180.0,862,Postpaid,9,credit card,Yes,2023-04-19,2025-09-10
+1430,Customer_430,Kolkata,Tamil Nadu,Gold,799,,778,postpaid,13,UPI,No,2024-03-24,2026-04-18
+1431,Customer_431,Ahmedabad,Telangana,Premium,499,120.0,278,postpaid,11,Credit Card,Yes,2023-06-03,2025-09-15
+1432,Customer_432,Chennai,Maharashtra,Gold,899,150.0,549,Prepaid,41,Debit Card,yes,2024-04-05,2025-03-11
+1433,Customer_433,Bangalore,Maharashtra,basic,899,100.0,277,postpaid,28,UPI,Yes,2024-02-10,2024-06-23
+1434,Customer_434,Delhi,Gujarat,Standard,399,,604,postpaid,1,Credit Card,yes,2022-02-13,2024-02-25
+1435,Customer_435,Ahmedabad,Tamil Nadu,basic,399,75.0,373,Prepaid,7,Debit Card,Yes,2023-10-22,2025-06-27
+1436,Customer_436,Hyderabad,Karnataka,Basic,999,50.0,213,Prepaid,55,Credit Card,yes,2023-05-28,2023-12-31
+1437,Customer_437,Delhi,Maharashtra,Premium ,799,120.0,257,postpaid,45,Credit Card,yes,2024-06-01,2024-12-15
+1438,Customer_438,Ahmedabad,Karnataka,basic,799,40.0,698,Prepaid,58,Debit Card,Yes,2023-08-11,2025-06-10
+1439,Customer_439,Ahmedabad,Delhi,standard,899,40.0,719,Postpaid,5,Credit Card,yes,2022-12-31,2023-06-20
+1440,Customer_440,Pune,Karnataka,standard,499,,617,Postpaid,51,Cash,No,2022-10-30,2023-01-25
+1441,Customer_441,Pune,Telangana,basic,599,75.0,216,Prepaid,29,Debit Card,No,2022-06-01,2024-09-27
+1442,Customer_442,Hyderabad,West Bengal,Premium,999,100.0,855,postpaid,34,credit card,yes,2022-09-14,2024-04-05
+1443,Customer_443,Delhi,Tamil Nadu,Basic,999,75.0,418,Postpaid,45,Debit Card,No,2023-01-30,2023-04-28
+1444,Customer_444,Pune,Karnataka,Standard,899,,686,Prepaid,30,credit card,Yes,2023-03-13,2024-12-26
+1445,Customer_445,Hyderabad,Gujarat,Premium,499,,577,Postpaid,33,UPI,yes,2023-03-25,2025-01-30
+1446,Customer_446,Kolkata,Karnataka,Basic,999,120.0,520,postpaid,11,Cash,No,2022-12-20,2024-09-13
+1447,Customer_447,Kolkata,Tamil Nadu,Premium,599,100.0,826,Postpaid,27,credit card,Yes,2022-07-26,2023-04-23
+1448,Customer_448,Kolkata,Delhi,Premium,799,40.0,506,postpaid,51,Credit Card,No,2024-04-15,2025-04-26
+1449,Customer_449,Chennai,Tamil Nadu,basic,899,120.0,324,postpaid,45,Cash,Yes,2024-06-12,2026-10-11
+1450,Customer_450,Bangalore,Tamil Nadu,Premium ,499,,830,postpaid,10,UPI,yes,2022-03-02,2024-07-22
+1451,Customer_451,Mumbai,Maharashtra,Premium,799,50.0,424,Postpaid,33,UPI,yes,2023-09-05,2024-08-01
+1452,Customer_452,Ahmedabad,Telangana,Gold,599,75.0,796,Prepaid,30,UPI,No,2022-08-29,2022-10-10
+1453,Customer_453,Hyderabad,Karnataka,standard,599,40.0,343,Prepaid,35,UPI,Yes,2022-11-22,2024-11-24
+1454,Customer_454,Mumbai,Gujarat,Premium ,499,100.0,761,Prepaid,24,Cash,No,2024-01-11,2025-10-31
+1455,Customer_455,Hyderabad,West Bengal,Premium ,999,180.0,844,Postpaid,3,Credit Card,yes,2022-05-03,2024-01-03
+1456,Customer_456,Pune,West Bengal,Basic,499,75.0,670,Prepaid,52,Cash,Yes,2023-11-19,2026-04-13
+1457,Customer_457,Mumbai,West Bengal,Premium,599,120.0,716,Prepaid,44,credit card,Yes,2022-02-03,2022-06-15
+1458,Customer_458,Chennai,Karnataka,Premium,499,150.0,348,postpaid,26,Cash,yes,2024-01-28,2025-05-25
+1459,Customer_459,Ahmedabad,Gujarat,Premium ,899,180.0,209,Postpaid,51,Credit Card,No,2023-09-17,2025-11-10
+1460,Customer_460,Ahmedabad,Maharashtra,Standard,899,150.0,227,Postpaid,31,UPI,yes,2024-03-20,2025-12-07
+1461,Customer_461,Mumbai,Gujarat,standard,999,40.0,690,postpaid,59,Credit Card,No,2023-04-11,2024-09-13
+1462,Customer_462,Delhi,West Bengal,Basic,999,75.0,122,Prepaid,47,credit card,yes,2023-12-07,2024-12-07
+1463,Customer_463,Hyderabad,Maharashtra,Gold,399,120.0,354,Postpaid,27,Credit Card,yes,2023-04-22,2023-06-11
+1464,Customer_464,Mumbai,Telangana,Premium,499,,613,Prepaid,22,credit card,yes,2023-07-13,2023-10-05
+1465,Customer_465,Mumbai,West Bengal,Standard,399,120.0,531,Prepaid,1,Cash,Yes,2022-12-26,2023-05-15
+1466,Customer_466,Pune,Maharashtra,Basic,899,120.0,462,Prepaid,55,Credit Card,yes,2022-11-28,2024-01-05
+1467,Customer_467,Mumbai,Delhi,Premium ,599,120.0,325,Prepaid,32,UPI,No,2023-05-23,2025-08-28
+1468,Customer_468,Pune,Karnataka,Premium,999,180.0,201,Postpaid,37,Credit Card,yes,2023-11-28,2025-12-15
+1469,Customer_469,Kolkata,West Bengal,Gold,499,100.0,756,Postpaid,47,Credit Card,No,2023-07-09,2024-09-28
+1470,Customer_470,Delhi,West Bengal,Gold,599,40.0,517,Prepaid,46,Debit Card,Yes,2022-02-22,2023-01-14
+1471,Customer_471,Ahmedabad,Gujarat,Premium ,799,180.0,133,postpaid,51,Credit Card,No,2024-03-02,2025-01-23
+1472,Customer_472,Chennai,Maharashtra,basic,599,,159,Postpaid,42,Debit Card,Yes,2022-02-16,2023-05-18
+1473,Customer_473,Ahmedabad,Maharashtra,standard,899,75.0,236,Postpaid,44,credit card,No,2022-01-22,2024-01-19
+1474,Customer_474,Bangalore,Maharashtra,Premium ,499,50.0,279,Prepaid,2,Cash,yes,2024-02-17,2025-09-19
+1475,Customer_475,Ahmedabad,Delhi,standard,499,120.0,297,Postpaid,36,Credit Card,yes,2024-06-15,2024-10-07
+1476,Customer_476,Hyderabad,Tamil Nadu,basic,599,,236,Prepaid,60,UPI,yes,2023-05-21,2025-03-28
+1477,Customer_477,Mumbai,Maharashtra,standard,799,120.0,342,Prepaid,21,Cash,No,2022-07-29,2024-11-11
+1478,Customer_478,Ahmedabad,Telangana,standard,899,50.0,565,Postpaid,56,Debit Card,Yes,2022-08-21,2023-12-10
+1479,Customer_479,Ahmedabad,Telangana,Premium ,399,100.0,298,postpaid,8,Cash,No,2022-10-29,2023-04-11
+1480,Customer_480,Ahmedabad,Karnataka,Standard,499,100.0,122,Postpaid,16,Cash,No,2023-01-08,2024-06-07
+1481,Customer_481,Delhi,West Bengal,Basic,399,50.0,503,postpaid,25,credit card,yes,2023-09-07,2025-02-11
+1482,Customer_482,Delhi,Gujarat,basic,599,100.0,836,Prepaid,49,Cash,Yes,2023-03-17,2025-07-04
+1483,Customer_483,Delhi,Telangana,Standard,899,50.0,641,Postpaid,60,credit card,Yes,2022-11-14,2023-06-24
+1484,Customer_484,Delhi,Tamil Nadu,Gold,999,120.0,730,Postpaid,1,credit card,Yes,2022-02-18,2022-04-04
+1485,Customer_485,Hyderabad,Telangana,Basic,499,75.0,359,postpaid,13,UPI,yes,2022-02-28,2023-07-06
+1486,Customer_486,Pune,Karnataka,Premium,899,120.0,241,postpaid,7,Credit Card,Yes,2023-04-27,2025-09-09
+1487,Customer_487,Delhi,Delhi,Premium ,399,75.0,792,Prepaid,30,UPI,No,2023-07-20,2024-04-12
+1488,Customer_488,Chennai,Gujarat,Gold,799,,391,postpaid,1,Credit Card,yes,2023-02-08,2023-03-13
+1489,Customer_489,Pune,Maharashtra,Standard,999,40.0,295,Prepaid,50,Credit Card,No,2022-10-14,2024-08-29
+1490,Customer_490,Hyderabad,Telangana,basic,399,180.0,216,Prepaid,54,Cash,Yes,2022-02-06,2024-02-25
+1491,Customer_491,Mumbai,Telangana,Basic,799,150.0,594,postpaid,38,Debit Card,Yes,2023-12-15,2025-03-31
+1492,Customer_492,Ahmedabad,Maharashtra,Gold,499,100.0,582,postpaid,29,Debit Card,Yes,2023-05-23,2025-08-12
+1493,Customer_493,Bangalore,Delhi,basic,499,75.0,587,Postpaid,30,Debit Card,No,2022-03-05,2023-05-23
+1494,Customer_494,Delhi,Delhi,Premium ,899,100.0,731,Postpaid,5,credit card,No,2022-11-05,2024-07-04
+1495,Customer_495,Mumbai,Telangana,Gold,399,120.0,769,Prepaid,10,Credit Card,No,2022-02-21,2023-05-17
+1496,Customer_496,Kolkata,Maharashtra,Basic,799,40.0,808,Postpaid,56,credit card,yes,2023-07-08,2024-11-15
+1497,Customer_497,Chennai,Karnataka,Premium ,999,150.0,439,postpaid,32,Cash,No,2023-11-30,2024-01-23
+1498,Customer_498,Kolkata,Delhi,Premium,599,150.0,608,postpaid,56,Cash,No,2024-06-06,2025-01-02
+1499,Customer_499,Ahmedabad,Tamil Nadu,standard,999,100.0,302,Postpaid,40,Debit Card,yes,2024-02-26,2025-07-10
+1500,Customer_500,Pune,Maharashtra,basic,399,150.0,212,Prepaid,56,Debit Card,Yes,2022-08-04,2024-03-18
+1501,Customer_501,Mumbai,Tamil Nadu,basic,999,180.0,195,Prepaid,21,Cash,No,2023-05-09,2025-05-15
+1502,Customer_502,Ahmedabad,West Bengal,basic,999,150.0,535,Postpaid,55,Cash,Yes,2024-03-06,2024-09-08
+1503,Customer_503,Hyderabad,West Bengal,basic,999,50.0,381,postpaid,9,UPI,No,2023-01-08,2024-09-08
+1504,Customer_504,Delhi,Maharashtra,Gold,399,,582,Prepaid,43,credit card,No,2022-03-04,2022-10-23
+1505,Customer_505,Kolkata,Tamil Nadu,Basic,499,75.0,388,Postpaid,18,credit card,Yes,2024-06-11,2026-11-01
+1506,Customer_506,Chennai,Telangana,Premium,899,75.0,866,postpaid,41,Credit Card,yes,2022-01-04,2022-10-01
+1507,Customer_507,Mumbai,Telangana,Premium,999,,220,postpaid,16,Debit Card,yes,2024-02-08,2024-10-05
+1508,Customer_508,Chennai,Tamil Nadu,Basic,999,40.0,592,Postpaid,28,Cash,No,2022-10-03,2024-05-06
+1509,Customer_509,Pune,Karnataka,standard,399,150.0,773,Postpaid,9,credit card,Yes,2022-07-15,2024-12-25
+1510,Customer_510,Delhi,Tamil Nadu,Basic,599,150.0,427,Prepaid,30,Cash,No,2023-04-07,2024-03-20
+1511,Customer_511,Hyderabad,Telangana,standard,599,100.0,446,Prepaid,54,Credit Card,yes,2023-09-29,2024-07-13
+1512,Customer_512,Mumbai,Gujarat,Gold,999,100.0,353,Prepaid,6,credit card,yes,2023-04-10,2023-07-21
+1513,Customer_513,Hyderabad,Karnataka,Premium,899,40.0,737,postpaid,14,Debit Card,Yes,2023-01-06,2024-10-08
+1514,Customer_514,Mumbai,Tamil Nadu,Standard,999,,510,postpaid,55,credit card,No,2023-12-31,2024-06-05
+1515,Customer_515,Chennai,Maharashtra,Standard,499,150.0,257,postpaid,37,credit card,Yes,2023-02-16,2024-01-17
+1516,Customer_516,Kolkata,Gujarat,Premium ,499,50.0,123,Prepaid,38,Credit Card,Yes,2022-05-03,2024-09-23
+1517,Customer_517,Bangalore,Gujarat,basic,499,100.0,427,Prepaid,43,Cash,yes,2023-09-28,2024-12-28
+1518,Customer_518,Pune,Maharashtra,standard,399,75.0,889,postpaid,15,credit card,Yes,2022-11-07,2025-03-08
+1519,Customer_519,Pune,Telangana,Premium ,599,50.0,888,postpaid,21,Cash,yes,2023-02-26,2023-05-23
+1520,Customer_520,Ahmedabad,West Bengal,Basic,599,150.0,443,Postpaid,35,UPI,Yes,2023-05-15,2024-12-18
+1521,Customer_521,Ahmedabad,Tamil Nadu,standard,799,100.0,872,Postpaid,47,Credit Card,Yes,2022-12-27,2024-04-03
+1522,Customer_522,Kolkata,Telangana,standard,899,,123,postpaid,30,UPI,yes,2023-12-25,2024-08-31
+1523,Customer_523,Chennai,Tamil Nadu,Premium,899,180.0,256,Postpaid,37,Debit Card,Yes,2024-05-08,2026-07-07
+1524,Customer_524,Ahmedabad,West Bengal,basic,599,50.0,726,Prepaid,11,Credit Card,No,2023-03-25,2025-05-16
+1525,Customer_525,Chennai,Maharashtra,Premium ,599,150.0,117,postpaid,13,UPI,yes,2022-05-19,2022-12-10
+1526,Customer_526,Pune,Telangana,Gold,499,,627,Postpaid,42,Debit Card,yes,2022-09-15,2024-03-21
+1527,Customer_527,Kolkata,Delhi,standard,599,150.0,592,Postpaid,49,Cash,yes,2022-02-27,2022-07-13
+1528,Customer_528,Chennai,Gujarat,Premium,799,75.0,379,Prepaid,3,credit card,yes,2024-04-21,2025-12-29
+1529,Customer_529,Kolkata,Delhi,Premium ,899,40.0,801,postpaid,11,credit card,No,2022-11-09,2024-02-18
+1530,Customer_530,Delhi,Gujarat,Premium,399,40.0,108,postpaid,53,credit card,yes,2022-02-07,2022-11-04
+1531,Customer_531,Hyderabad,Karnataka,Standard,599,100.0,222,Postpaid,35,credit card,yes,2023-03-20,2024-03-14
+1532,Customer_532,Chennai,West Bengal,basic,799,50.0,272,Prepaid,1,UPI,yes,2023-10-27,2025-07-21
+1533,Customer_533,Mumbai,Karnataka,basic,399,100.0,448,Postpaid,59,credit card,Yes,2023-05-17,2025-07-03
+1534,Customer_534,Mumbai,Telangana,Gold,499,180.0,340,Prepaid,27,UPI,No,2024-03-22,2024-09-19
+1535,Customer_535,Ahmedabad,Karnataka,standard,399,50.0,494,postpaid,22,Cash,yes,2024-03-14,2025-10-23
+1536,Customer_536,Delhi,West Bengal,Gold,499,75.0,104,Postpaid,43,Cash,yes,2023-11-30,2024-04-02
+1537,Customer_537,Ahmedabad,Delhi,Premium,599,50.0,660,postpaid,59,Credit Card,yes,2022-09-22,2024-04-04
+1538,Customer_538,Pune,Tamil Nadu,Standard,499,,662,Postpaid,23,credit card,yes,2022-10-18,2024-02-15
+1539,Customer_539,Bangalore,Maharashtra,standard,599,50.0,581,Postpaid,18,Credit Card,yes,2023-10-19,2025-05-02
+1540,Customer_540,Pune,Karnataka,Basic,499,40.0,782,postpaid,4,Cash,yes,2022-02-13,2022-04-09
+1541,Customer_541,Mumbai,Telangana,standard,399,75.0,882,Postpaid,34,credit card,No,2022-11-04,2024-08-23
+1542,Customer_542,Ahmedabad,Karnataka,standard,599,75.0,182,Prepaid,4,Credit Card,Yes,2022-05-06,2023-05-01
+1543,Customer_543,Delhi,Telangana,basic,399,50.0,730,postpaid,57,credit card,Yes,2024-04-27,2026-04-08
+1544,Customer_544,Hyderabad,Karnataka,Basic,999,40.0,227,Postpaid,60,Credit Card,yes,2022-10-24,2024-02-03
+1545,Customer_545,Chennai,Maharashtra,Gold,899,,288,Prepaid,52,UPI,Yes,2024-03-07,2025-08-29
+1546,Customer_546,Hyderabad,Karnataka,standard,999,40.0,443,Postpaid,22,UPI,yes,2023-11-11,2025-10-07
+1547,Customer_547,Bangalore,Telangana,Premium ,799,150.0,814,Prepaid,39,Cash,No,2023-08-15,2024-11-20
+1548,Customer_548,Pune,Tamil Nadu,standard,599,180.0,541,Postpaid,26,Cash,yes,2023-11-09,2024-10-29
+1549,Customer_549,Mumbai,Karnataka,Premium,999,180.0,790,postpaid,22,Debit Card,No,2023-06-11,2024-10-06
+1550,Customer_550,Chennai,Telangana,Premium ,899,180.0,826,postpaid,5,Credit Card,Yes,2023-03-29,2023-06-19
+1551,Customer_551,Pune,Maharashtra,Premium,799,120.0,262,postpaid,42,Cash,No,2024-02-24,2025-10-06
+1552,Customer_552,Bangalore,Delhi,Gold,799,50.0,491,postpaid,17,Cash,yes,2022-08-17,2023-12-16
+1553,Customer_553,Delhi,Maharashtra,Standard,499,50.0,278,postpaid,3,Cash,yes,2023-11-06,2025-08-08
+1554,Customer_554,Hyderabad,Maharashtra,Standard,799,,109,Postpaid,52,UPI,Yes,2024-02-26,2025-11-09
+1555,Customer_555,Pune,Gujarat,Premium,399,,147,Postpaid,43,Debit Card,Yes,2023-01-23,2023-04-20
+1556,Customer_556,Kolkata,Karnataka,basic,799,120.0,417,postpaid,28,credit card,yes,2022-03-09,2024-08-02
+1557,Customer_557,Chennai,Maharashtra,Gold,799,50.0,444,Postpaid,31,Cash,No,2023-06-25,2023-11-22
+1558,Customer_558,Mumbai,Telangana,Gold,499,120.0,199,Prepaid,26,credit card,yes,2022-07-09,2022-12-08
+1559,Customer_559,Pune,Telangana,basic,399,,173,Prepaid,9,Credit Card,No,2023-07-14,2023-12-04
+1560,Customer_560,Hyderabad,Delhi,Premium,399,100.0,501,Prepaid,3,UPI,No,2023-05-15,2025-05-24
+1561,Customer_561,Chennai,Telangana,basic,999,100.0,496,Postpaid,9,UPI,yes,2023-11-23,2025-02-22
+1562,Customer_562,Kolkata,Telangana,Standard,799,,868,Postpaid,60,credit card,No,2022-10-30,2025-02-27
+1563,Customer_563,Bangalore,Gujarat,Gold,599,150.0,651,postpaid,19,Credit Card,Yes,2023-07-14,2025-10-20
+1564,Customer_564,Delhi,West Bengal,Gold,499,100.0,497,postpaid,17,UPI,yes,2023-03-23,2023-08-02
+1565,Customer_565,Delhi,Tamil Nadu,Premium ,399,150.0,819,postpaid,11,Debit Card,Yes,2023-08-26,2025-03-11
+1566,Customer_566,Chennai,Maharashtra,basic,499,180.0,191,Postpaid,10,Debit Card,No,2023-03-15,2024-09-16
+1567,Customer_567,Hyderabad,Karnataka,Standard,399,180.0,291,postpaid,31,UPI,yes,2022-07-07,2023-06-28
+1568,Customer_568,Pune,Maharashtra,Basic,799,180.0,404,Postpaid,53,UPI,yes,2023-02-18,2023-05-03
+1569,Customer_569,Mumbai,Gujarat,Basic,599,100.0,213,Prepaid,38,UPI,No,2023-10-13,2024-04-09
+1570,Customer_570,Mumbai,Maharashtra,Premium ,499,150.0,747,postpaid,33,Cash,yes,2024-03-13,2024-12-19
+1571,Customer_571,Bangalore,West Bengal,basic,999,120.0,717,postpaid,8,Debit Card,No,2023-02-22,2023-08-16
+1572,Customer_572,Chennai,West Bengal,Basic,599,120.0,447,postpaid,10,UPI,Yes,2022-09-18,2023-10-20
+1573,Customer_573,Pune,West Bengal,Standard,999,40.0,583,Prepaid,52,credit card,No,2022-12-21,2024-09-26
+1574,Customer_574,Pune,Delhi,Premium,499,50.0,378,postpaid,9,UPI,Yes,2024-01-07,2025-05-04
+1575,Customer_575,Kolkata,Gujarat,Premium ,999,50.0,142,Postpaid,42,Debit Card,No,2022-12-08,2025-01-09
+1576,Customer_576,Kolkata,Karnataka,Premium,599,150.0,696,Postpaid,44,Credit Card,No,2022-10-12,2023-10-05
+1577,Customer_577,Bangalore,West Bengal,Basic,899,40.0,356,Postpaid,44,Debit Card,Yes,2022-03-01,2023-09-28
+1578,Customer_578,Pune,Delhi,basic,399,,560,postpaid,27,credit card,No,2022-12-19,2025-01-24
+1579,Customer_579,Pune,Gujarat,basic,599,150.0,731,Postpaid,21,credit card,No,2022-07-20,2023-06-20
+1580,Customer_580,Delhi,Telangana,Standard,599,180.0,702,postpaid,8,UPI,No,2022-01-16,2023-01-14
+1581,Customer_581,Hyderabad,Maharashtra,Premium,599,50.0,155,Postpaid,45,Credit Card,Yes,2022-08-21,2024-11-23
+1582,Customer_582,Mumbai,West Bengal,Premium ,999,50.0,793,Postpaid,60,Cash,No,2023-06-27,2024-02-06
+1583,Customer_583,Chennai,Telangana,basic,999,100.0,171,postpaid,43,Cash,yes,2022-06-29,2024-09-24
+1584,Customer_584,Kolkata,Maharashtra,Premium ,499,50.0,332,postpaid,34,Cash,No,2022-09-24,2024-12-07
+1585,Customer_585,Ahmedabad,Tamil Nadu,Gold,499,75.0,568,postpaid,60,Cash,yes,2022-04-21,2024-02-01
+1586,Customer_586,Kolkata,Telangana,Premium,599,50.0,133,Postpaid,5,credit card,yes,2022-09-01,2024-07-28
+1587,Customer_587,Kolkata,Telangana,standard,399,150.0,296,postpaid,18,UPI,No,2022-09-08,2023-03-06
+1588,Customer_588,Hyderabad,West Bengal,Standard,599,180.0,714,Postpaid,9,Credit Card,Yes,2023-12-19,2025-06-30
+1589,Customer_589,Ahmedabad,West Bengal,Premium ,399,50.0,341,postpaid,18,UPI,No,2024-02-10,2025-11-14
+1590,Customer_590,Ahmedabad,Telangana,Basic,999,100.0,486,Prepaid,5,Debit Card,Yes,2024-01-06,2025-03-14
+1591,Customer_591,Mumbai,Telangana,Basic,999,40.0,826,Prepaid,18,Cash,No,2022-10-17,2024-11-19
+1592,Customer_592,Mumbai,Maharashtra,Premium,999,100.0,717,Prepaid,46,credit card,Yes,2023-08-27,2025-01-10
+1593,Customer_593,Pune,West Bengal,basic,399,50.0,565,Prepaid,39,UPI,yes,2022-05-30,2024-04-05
+1594,Customer_594,Delhi,Maharashtra,standard,399,75.0,213,Postpaid,24,UPI,Yes,2023-08-22,2025-11-28
+1595,Customer_595,Bangalore,Telangana,basic,999,50.0,868,Prepaid,15,Debit Card,No,2022-12-28,2023-04-29
+1596,Customer_596,Ahmedabad,Maharashtra,Premium ,899,180.0,315,postpaid,27,credit card,No,2022-10-22,2023-01-02
+1597,Customer_597,Chennai,West Bengal,Premium,599,120.0,876,Postpaid,54,UPI,Yes,2024-05-22,2026-06-06
+1598,Customer_598,Kolkata,Karnataka,Premium ,899,150.0,772,postpaid,38,UPI,No,2023-01-06,2024-05-18
+1599,Customer_599,Delhi,West Bengal,standard,899,100.0,732,Prepaid,26,Cash,yes,2022-06-04,2023-05-31
